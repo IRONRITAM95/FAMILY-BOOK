@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <tilte>family book</tilte>
+    </head>
+    <body>
+        <h2>MY FAMILY BOOK</h2>
+        <img id="img1" src="c78.jpeg">
+        <h4 id="h">AMIT SURANA</h4>
+        <button id="b" type="button" onclick="next()">NEXT</button>
+        <script>
+       var r=["c78-3.jpeg","c78-2.jpeg"];
+       var n=["RUMA SURANA","RITAM SURANA"];
+       var i=0;function next(){document.getElementById("img1").src=r[i];
+    document.getElementById("h").innerHTML=n[i];
+    i++;
+    }
+        </script>
+    </body>
+</html>
